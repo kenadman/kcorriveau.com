@@ -8,8 +8,15 @@ This repo is kcorriveau.com, Ken's personal website. It is not Vista or Evolvium
 - Goal: fractional, interim, or full-time CIO roles and board seats.
 - It does not sell Evolvium or consulting services.
 
-## Planned sections
-Hero, about, core pillars, experience timeline, skills, case studies, certifications, thought leadership, speaking and board, testimonials, contact.
+## Sections (v1, one page, in order)
+1. Hero
+2. Approach ("When Leaders Call Me")
+3. AI ("My View on AI")
+4. Experience ("Track Record")
+5. Ventures ("One Mission, Three Ways to Work With Me")
+6. Board and Advisory
+7. Media ("Interviews and Articles")
+8. Contact ("Let's Talk")
 
 ## Structure
 - All website files live in /docs, which is the GitHub Pages publishing folder.
@@ -34,9 +41,35 @@ Hero, about, core pillars, experience timeline, skills, case studies, certificat
 - Content comes only from Ken. Never invent testimonials, metrics, clients, or credentials.
 
 ## Contact
-- Booking link: https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting
-- Email: ken@kcorriveau.com
-- No contact form.
+- The primary call to action is engaging Ken through Fortium Partners.
+- The secondary is the booking link https://app.reclaim.ai/m/kencorriveau/flexible-quick-meeting.
+- Contact also lists ken@kcorriveau.com and LinkedIn https://www.linkedin.com/in/kennethcorriveau/.
+- No phone number and no contact form.
+
+## Fortium link placeholder
+- Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile" so all of them can be swapped in one pass later.
+
+## Executive education (confirmed)
+Executive education courses, not degrees. Newest first:
+- Stanford University, artificial intelligence program (2025)
+- UC Berkeley Haas School of Business, Innovation and Change (2021)
+- Harvard, leadership program (2012)
+- MIT Sloan School of Management, Technology Management (2006)
+
+## Design
+- One family with Evolvium AI, with its own accent.
+- Fonts: Outfit for headings, DM Sans for body, from Google Fonts.
+- Navy #162842: headings, the nav and dark bands.
+- Ink #1F3553: body text.
+- Muted #4A5670.
+- Page background #F7F9FC. Cards #FFFFFF. Soft panels #EDF3FA. Borders #DCE5F0.
+- Accent copper #A9521C for buttons and links on light backgrounds (white text on it is 5.4:1).
+- On navy backgrounds use #E3A472 for accent text.
+- Never use magenta or a ring gradient. That accent belongs to Evolvium.
+- Feel: board-ready and calm, generous white space, one idea per section.
+- Mobile first. Subtle motion only, and respect prefers-reduced-motion.
+- Favicon: SVG KC monogram in navy and copper.
+- No cookie banner, no analytics, no scripts beyond Google Fonts. No HTML comments.
 
 ## Writing rules
 - No em dashes.
