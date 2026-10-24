@@ -609,6 +609,107 @@ ol {
   margin: 0;
 }
 
+.summary {
+  font-size: 1.125rem;
+  max-width: 44em;
+  margin-bottom: 2rem;
+}
+
+.band .eyebrow {
+  color: var(--copper-light);
+}
+
+.band .summary {
+  color: #FFFFFF;
+}
+
+.source-note {
+  font-size: 0.875rem;
+  color: var(--on-navy);
+  margin: -1.25rem 0 2.5rem;
+}
+
+.panel-title {
+  font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+}
+
+.panel .summary {
+  font-size: 1.0625rem;
+  margin-bottom: 1.75rem;
+}
+
+.faq-list {
+  display: grid;
+  border-top: 1px solid var(--border);
+}
+
+.faq-item {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-item h3 {
+  font-size: 1.1875rem;
+}
+
+.faq-item p {
+  max-width: 46em;
+  margin: 0;
+}
+
+.compare {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.compare thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.compare tbody,
+.compare tr,
+.compare th,
+.compare td {
+  display: block;
+}
+
+.compare tr {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+
+.compare tbody th {
+  font-family: var(--font-head);
+  font-weight: 600;
+  color: var(--navy);
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.compare tbody td {
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+}
+
+.compare tbody td::before {
+  content: attr(data-label);
+  display: block;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  color: var(--copper);
+}
+
 .site-footer {
   background: var(--navy);
   color: var(--on-navy);
@@ -687,6 +788,64 @@ ol {
   .experience-grid {
     grid-template-columns: 1fr 1fr;
     gap: 48px;
+  }
+
+  .compare {
+    display: table;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+
+  .compare thead {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    display: table-header-group;
+  }
+
+  .compare tbody {
+    display: table-row-group;
+  }
+
+  .compare tr {
+    display: table-row;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .compare th,
+  .compare td {
+    display: table-cell;
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid var(--border);
+  }
+
+  .compare thead th,
+  .compare thead td {
+    border-top: 0;
+    background: var(--soft);
+    font-family: var(--font-head);
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  .compare tbody th {
+    margin: 0;
+    width: 18%;
+  }
+
+  .compare tbody td::before {
+    content: none;
   }
 
   .section {

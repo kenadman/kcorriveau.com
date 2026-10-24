@@ -8,15 +8,17 @@ This repo is kcorriveau.com, Ken's personal website. It is not Vista or Evolvium
 - Goal: fractional, interim, or full-time CIO roles and board seats.
 - It does not sell Evolvium or consulting services.
 
-## Sections (v1, one page, in order)
+## Sections (one page, in order)
+Eyebrow label, then the question heading.
 1. Hero
-2. Approach ("When Leaders Call Me")
-3. AI ("My View on AI")
-4. Experience ("Track Record")
-5. Ventures ("One Mission, Three Ways to Work With Me")
-6. Board and Advisory
-7. Media ("Interviews and Articles")
-8. Contact ("Let's Talk")
+2. Approach: "When Leaders Call Me" / "When should a company bring in a fractional or interim CIO?" (includes "How I Work" / "How does Ken Corriveau work with leadership teams?")
+3. AI: "My View on AI" / "Who should own AI inside a company?"
+4. Experience: "Track Record" / "What has Ken Corriveau delivered?"
+5. Ventures: "One Mission, Three Ways to Work With Me" (heading kept as is)
+6. Board: "Board and Advisory" / "Where has Ken Corriveau served on boards?"
+7. Media: "Interviews and Articles" / "Where has Ken Corriveau been featured?"
+8. FAQ: "FAQ" / "Questions Leaders Ask"
+9. Contact: "Let's Talk" / "How do you engage Ken Corriveau?"
 
 ## Structure
 - All website files live in /docs, which is the GitHub Pages publishing folder.
@@ -33,6 +35,8 @@ This repo is kcorriveau.com, Ken's personal website. It is not Vista or Evolvium
 
 ## Domain
 - Do not create a CNAME file or set a custom domain. Ken will call the DNS cutover when the site is approved.
+- The canonical URL, og:url, JSON-LD url and sitemap already use https://kcorriveau.com/.
+- Until the cutover, og:image, twitter:image and the JSON-LD image point to the kenadman.github.io preview so share images resolve. Switch them to https://kcorriveau.com/ at the cutover.
 
 ## Privacy
 - The repo is public. Never commit drafts, notes, the content blueprint, contact lists, credentials, or anything private.
@@ -46,12 +50,14 @@ This repo is kcorriveau.com, Ken's personal website. It is not Vista or Evolvium
 - Contact also lists ken@kcorriveau.com and LinkedIn https://www.linkedin.com/in/kennethcorriveau/.
 - No phone number and no contact form.
 
+## Kenetic Consulting
+- Name only, no link until the keneticon.com cutover.
+
 ## Fortium link placeholder
 - Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile" so all of them can be swapped in one pass later.
 
 ## Executive education (confirmed)
 Executive education courses, not degrees. Newest first:
-- Stanford University, artificial intelligence program (2025)
 - UC Berkeley Haas School of Business, Innovation and Change (2021)
 - Harvard, leadership program (2012)
 - MIT Sloan School of Management, Technology Management (2006)
@@ -70,6 +76,12 @@ Executive education courses, not degrees. Newest first:
 - Mobile first. Subtle motion only, and respect prefers-reduced-motion.
 - Favicon: SVG KC monogram in navy and copper.
 - No cookie banner, no analytics, no scripts beyond Google Fonts. No HTML comments.
+
+## GEO (generative engine optimization)
+- Section headings are natural-language questions with a 2 to 4 sentence answer-first summary beneath them.
+- Keep the FAQPage JSON-LD in sync with the visible FAQ, word for word.
+- On every content change, update the footer "Last updated" month, dateModified and the sitemap lastmod.
+- External statistics must link to their source.
 
 ## Writing rules
 - No em dashes.
