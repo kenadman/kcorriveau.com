@@ -32,12 +32,12 @@ Eyebrow label, then the question heading.
 
 ## Paths
 - Links and asset paths must be relative (about.html, css/site.css), never root-absolute (/about).
-- The preview runs at https://kenadman.github.io/kcorriveau.com/ until the domain cutover.
+- The live site is https://kcorriveau.com/. The old preview address https://kenadman.github.io/kcorriveau.com/ redirects there.
 
 ## Domain
-- Do not create a CNAME file or set a custom domain. Ken will call the DNS cutover when the site is approved.
+- The custom domain is kcorriveau.com. /docs/CNAME must contain exactly kcorriveau.com. Never delete or change it. Keep all paths relative.
 - The canonical URL, og:url, JSON-LD url and sitemap already use https://kcorriveau.com/.
-- Until the cutover, og:image, twitter:image and the JSON-LD image point to the kenadman.github.io preview so share images resolve. Switch them to https://kcorriveau.com/ at the cutover.
+- og:image, twitter:image and the JSON-LD image use https://kcorriveau.com/images/ken-corriveau.jpg.
 
 ## Privacy
 - The repo is public. Never commit drafts, notes, the content blueprint, contact lists, credentials, or anything private.
@@ -53,7 +53,7 @@ Eyebrow label, then the question heading.
 - No phone number and no contact form.
 
 ## Kenetic Consulting
-- Name only, no link until the keneticon.com cutover.
+- Link "Kenetic Consulting" to https://keneticon.com (new tab) in the Ventures card and the shared footer.
 
 ## Fortium link placeholder
 - Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile" so all of them can be swapped in one pass later.
@@ -102,4 +102,4 @@ Executive education courses, not degrees. Newest first:
 - Keep pages fast.
 
 ## Workflow
-- Small commits pushed to main, then check the preview URL.
+- Small commits pushed to main, then check the live site.
