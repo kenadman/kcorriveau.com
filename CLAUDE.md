@@ -17,8 +17,9 @@ Eyebrow label, then the question heading.
 5. Ventures: "One Mission, Three Ways to Work With Me" (heading kept as is)
 6. Board: "Board and Advisory" / "Where has Ken Corriveau served on boards?"
 7. Media: "Interviews and Articles" / "Where has Ken Corriveau been featured?"
-8. FAQ: "FAQ" / "Questions Leaders Ask"
-9. Contact: "Let's Talk" / "How do you engage Ken Corriveau?"
+8. About: "Beyond the Boardroom" / "Passion is my operating system." (My Story, What Drives Me, Outside of Work, In Their Words)
+9. FAQ: "FAQ" / "Questions Leaders Ask"
+10. Contact: "Let's Talk" / "How do you engage Ken Corriveau?"
 
 ## Structure
 - All website files live in /docs, which is the GitHub Pages publishing folder.
@@ -43,6 +44,7 @@ Eyebrow label, then the question heading.
 
 ## Content
 - Content comes only from Ken. Never invent testimonials, metrics, clients, or credentials.
+- Testimonials are verbatim LinkedIn recommendations, attributed by name, title and relationship, and linked to the author's LinkedIn profile. Never edit their wording.
 
 ## Contact
 - The primary call to action is engaging Ken through Fortium Partners.
@@ -92,6 +94,7 @@ Executive education courses, not degrees. Newest first:
 ## Images
 - Only photos Ken supplies.
 - Reuse nothing from the old Network Solutions site.
+- Personal photos are small (640 by 480 or 480 by 640). Show them as tiles no wider than about 320px and never stretch them larger. Copy supplied photos without re-encoding.
 
 ## Build quality
 - Build mobile first.
