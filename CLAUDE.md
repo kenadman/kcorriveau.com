@@ -37,7 +37,8 @@ Eyebrow label, then the question heading.
 ## Domain
 - The custom domain is kcorriveau.com. /docs/CNAME must contain exactly kcorriveau.com. Never delete or change it. Keep all paths relative.
 - The canonical URL, og:url, JSON-LD url and sitemap already use https://kcorriveau.com/.
-- og:image, twitter:image and the JSON-LD image use https://kcorriveau.com/images/ken-corriveau.jpg.
+- Hero portrait: images/ken-portrait.jpg (800 by 1198). The JSON-LD Person image is https://kcorriveau.com/images/ken-portrait.jpg.
+- Link previews: og:image and twitter:image are https://kcorriveau.com/images/ken-share.jpg (1200 by 630), twitter:card summary_large_image.
 
 ## Privacy
 - The repo is public. Never commit drafts, notes, the content blueprint, contact lists, credentials, or anything private.
