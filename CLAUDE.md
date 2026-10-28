@@ -46,6 +46,7 @@ Eyebrow label, then the question heading.
 ## Content
 - Content comes only from Ken. Never invent testimonials, metrics, clients, or credentials.
 - Testimonials are verbatim LinkedIn recommendations, attributed by name, title and relationship, and linked to the author's LinkedIn profile. Never edit their wording.
+- No verbatim repetition: state each fact in full once. Section summaries, FAQ answers and cards may cover the same topic, but must use different wording and add something new. The by-the-numbers bar is the one intentional exception.
 
 ## Contact
 - The primary call to action is engaging Ken through Fortium Partners.
@@ -56,8 +57,8 @@ Eyebrow label, then the question heading.
 ## Kenetic Consulting
 - Link "Kenetic Consulting" to https://keneticon.com (new tab) in the Ventures card and the shared footer.
 
-## Fortium link placeholder
-- Fortium profile URL pending. Every Fortium link points to https://fortiumpartners.com and carries data-placeholder="fortium-profile" so all of them can be swapped in one pass later.
+## Fortium links
+- Fortium links go to https://www.fortiumpartners.com/partners/kenneth-corriveau. The JSON-LD Fortium Partners affiliation uses the same URL.
 
 ## Executive education (confirmed)
 Executive education courses, not degrees. Newest first:
@@ -101,6 +102,9 @@ Executive education courses, not degrees. Newest first:
 - Build mobile first.
 - Give every image alt text.
 - Keep pages fast.
+- Headings contain only visible text. New-tab hints use aria-describedby="new-tab-note".
+- Exactly one h1, and heading levels never skip.
+- Icons: images/favicon.svg, images/favicon-32.png and apple-touch-icon.png (180 by 180, at the /docs root) share the KC monogram design.
 
 ## Workflow
 - Small commits pushed to main, then check the live site.

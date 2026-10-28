@@ -303,6 +303,17 @@ ol {
   max-width: 38em;
 }
 
+.hero-photo {
+  margin: 0;
+}
+
+.hero-photo figcaption {
+  margin-top: 12px;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
 .hero-photo img {
   width: 100%;
   max-width: 340px;
@@ -310,25 +321,46 @@ ol {
   box-shadow: 0 18px 40px -20px rgba(22, 40, 66, 0.45);
 }
 
-.proof-strip {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1px;
-  margin-top: 40px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
+.numbers {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
 }
 
-.proof-strip li {
-  background: var(--card);
-  padding: 16px 18px;
+.numbers-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 28px;
+  align-items: start;
+}
+
+.numbers-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 16px;
+  border-left: 1px solid var(--border);
+}
+
+.numbers-list li:nth-child(odd) {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.num {
   font-family: var(--font-head);
   font-weight: 600;
+  font-size: clamp(2rem, 7vw, 2.75rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
   color: var(--navy);
-  line-height: 1.35;
+}
+
+.num-label {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: var(--muted);
 }
 
 .section {
@@ -426,11 +458,6 @@ ol {
   font-weight: 500;
   color: var(--navy);
   line-height: 1.35;
-  margin: 0;
-}
-
-.note {
-  color: var(--muted);
   margin: 0;
 }
 
@@ -625,8 +652,11 @@ ol {
 
 .source-note {
   font-size: 0.875rem;
-  color: var(--on-navy);
-  margin: -1.25rem 0 2.5rem;
+  color: var(--muted);
+}
+
+.faq-item .source-note {
+  margin-top: 8px;
 }
 
 .panel-title {
@@ -870,10 +900,6 @@ ol {
     mask-image: none;
   }
 
-  .proof-strip {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .card-grid-2,
   .card-grid-4 {
     grid-template-columns: repeat(2, 1fr);
@@ -990,6 +1016,29 @@ ol {
     max-width: 720px;
   }
 
+  .numbers-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .numbers-list li,
+  .numbers-list li:nth-child(odd) {
+    padding: 0 16px;
+    border-left: 1px solid var(--border);
+  }
+
+  .num {
+    font-size: 2.125rem;
+  }
+
+  .numbers-list li:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .numbers-list li:last-child {
+    padding-right: 0;
+  }
+
   .tile-wide {
     grid-column: auto;
   }
@@ -1030,9 +1079,6 @@ ol {
     max-width: 380px;
   }
 
-  .proof-strip {
-    grid-template-columns: repeat(4, 1fr);
-  }
 
   .outside {
     grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
@@ -1042,6 +1088,15 @@ ol {
 
   .photo-tiles {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .numbers-list li,
+  .numbers-list li:nth-child(odd) {
+    padding: 0 20px;
+  }
+
+  .num {
+    font-size: 2.75rem;
   }
 
   .tile-wide {
